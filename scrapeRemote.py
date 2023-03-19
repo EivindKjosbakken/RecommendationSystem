@@ -1,3 +1,7 @@
+# This script is to be used over ssh, so if you only have access to a machine via terminal. You run the script with: 
+# "python scrapeRemote.py -numids <number of ids to get> -numbooks <number of books to scrape> -maxtime <max number of seconds to scrape for>"
+# Note that this script requires a list of Wikidata id's that are saved in "wikidataLitteratureWorkIds.csv". How to get these id's are shown in: https://medium.com/@oieivind/scraping-wikipedia-articles-and-encoding-data-3574b8c8980e
+
 #imports:
 import pandas as pd
 import numpy as np
